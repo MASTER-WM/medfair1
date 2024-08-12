@@ -1,0 +1,190 @@
+2024-08-12 11:52:41,300 INFO    StreamThr :94195 [internal.py:wandb_internal():85] W&B internal server running at pid: 94195, started at: 2024-08-12 11:52:41.299669
+2024-08-12 11:52:41,301 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: status
+2024-08-12 11:52:41,321 INFO    WriterThread:94195 [datastore.py:open_for_write():87] open: /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_115241-1r84d5no/run-1r84d5no.wandb
+2024-08-12 11:52:41,322 DEBUG   SenderThread:94195 [sender.py:send():391] send: header
+2024-08-12 11:52:41,326 DEBUG   SenderThread:94195 [sender.py:send():391] send: run
+2024-08-12 11:52:42,609 INFO    SenderThread:94195 [dir_watcher.py:__init__():211] watching files in: /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_115241-1r84d5no/files
+2024-08-12 11:52:42,610 INFO    SenderThread:94195 [sender.py:_start_run_threads():1200] run started: 1r84d5no with start time 1723450961.297367
+2024-08-12 11:52:42,619 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: check_version
+2024-08-12 11:52:42,619 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: check_version
+2024-08-12 11:52:43,917 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: run_start
+2024-08-12 11:52:43,930 DEBUG   HandlerThread:94195 [system_info.py:__init__():26] System info init
+2024-08-12 11:52:43,930 DEBUG   HandlerThread:94195 [system_info.py:__init__():41] System info init done
+2024-08-12 11:52:43,930 INFO    HandlerThread:94195 [system_monitor.py:start():194] Starting system monitor
+2024-08-12 11:52:43,930 INFO    SystemMonitor:94195 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-08-12 11:52:43,930 INFO    HandlerThread:94195 [system_monitor.py:probe():214] Collecting system info
+2024-08-12 11:52:43,933 INFO    SystemMonitor:94195 [interfaces.py:start():188] Started cpu monitoring
+2024-08-12 11:52:43,933 INFO    SystemMonitor:94195 [interfaces.py:start():188] Started disk monitoring
+2024-08-12 11:52:43,937 INFO    SystemMonitor:94195 [interfaces.py:start():188] Started gpuapple monitoring
+2024-08-12 11:52:43,941 INFO    SystemMonitor:94195 [interfaces.py:start():188] Started memory monitoring
+2024-08-12 11:52:43,941 INFO    SystemMonitor:94195 [interfaces.py:start():188] Started network monitoring
+2024-08-12 11:52:44,243 DEBUG   HandlerThread:94195 [system_info.py:probe():152] Probing system
+2024-08-12 11:52:44,248 DEBUG   HandlerThread:94195 [system_info.py:_probe_git():137] Probing git
+2024-08-12 11:52:44,267 DEBUG   HandlerThread:94195 [system_info.py:_probe_git():145] Probing git done
+2024-08-12 11:52:44,267 DEBUG   HandlerThread:94195 [system_info.py:probe():200] Probing system done
+2024-08-12 11:52:44,267 DEBUG   HandlerThread:94195 [system_monitor.py:probe():223] {'os': 'macOS-14.4.1-arm64-arm-64bit', 'python': '3.9.6', 'heartbeatAt': '2024-08-12T08:22:44.243902', 'startedAt': '2024-08-12T08:22:41.290222', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/amir/PycharmProjects/Medfair/MEDFAIR/trainn.py', 'codePathLocal': 'trainn.py', 'codePath': 'trainn.py', 'git': {'remote': 'https://github.com/ys-zong/MEDFAIR.git', 'commit': '2fae4241b6281c974a07ad35e4fb9f839825c84c'}, 'email': 'amir1374m@gmail.com', 'root': '/Users/amir/PycharmProjects/Medfair/MEDFAIR', 'host': 'Amirs-MacBook-Pro.local', 'username': 'amir', 'executable': '/Users/amir/Documents/Projects/Python/Medfair/bin/Python', 'cpu_count': 10, 'cpu_count_logical': 10, 'cpu_freq': {'current': 3228, 'min': 600, 'max': 3228}, 'cpu_freq_per_core': [{'current': 3228, 'min': 600, 'max': 3228}], 'disk': {'/': {'total': 460.4317207336426, 'used': 9.539630889892578}}, 'gpuapple': {'type': 'Apple M1 Pro', 'vendor': 'sppci_vendor_Apple'}, 'memory': {'total': 16.0}}
+2024-08-12 11:52:44,267 INFO    HandlerThread:94195 [system_monitor.py:probe():224] Finished collecting system info
+2024-08-12 11:52:44,267 INFO    HandlerThread:94195 [system_monitor.py:probe():227] Publishing system info
+2024-08-12 11:52:44,267 INFO    HandlerThread:94195 [system_monitor.py:probe():229] Finished publishing system info
+2024-08-12 11:52:44,270 DEBUG   SenderThread:94195 [sender.py:send():391] send: files
+2024-08-12 11:52:44,270 INFO    SenderThread:94195 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-08-12 11:52:44,342 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: python_packages
+2024-08-12 11:52:44,342 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: python_packages
+2024-08-12 11:52:44,343 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-12 11:52:44,343 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: stop_status
+2024-08-12 11:52:44,344 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-12 11:52:44,613 INFO    Thread-12 :94195 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_115241-1r84d5no/files/requirements.txt
+2024-08-12 11:52:44,613 INFO    Thread-12 :94195 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_115241-1r84d5no/files/wandb-metadata.json
+2024-08-12 11:52:45,205 DEBUG   SenderThread:94195 [sender.py:send():391] send: telemetry
+2024-08-12 11:52:45,205 DEBUG   SenderThread:94195 [sender.py:send():391] send: telemetry
+2024-08-12 11:52:45,205 DEBUG   SenderThread:94195 [sender.py:send():391] send: run
+2024-08-12 11:52:45,524 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-12 11:52:45,537 INFO    SenderThread:94195 [sender.py:send_run():1047] updated run: 1r84d5no
+2024-08-12 11:52:45,538 DEBUG   SenderThread:94195 [sender.py:send():391] send: exit
+2024-08-12 11:52:45,538 INFO    SenderThread:94195 [sender.py:send_exit():598] handling exit code: 1
+2024-08-12 11:52:45,539 INFO    SenderThread:94195 [sender.py:send_exit():600] handling runtime: 0
+2024-08-12 11:52:45,540 INFO    SenderThread:94195 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-12 11:52:45,540 INFO    SenderThread:94195 [sender.py:send_exit():606] send defer
+2024-08-12 11:52:45,541 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: poll_exit
+2024-08-12 11:52:45,541 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: defer
+2024-08-12 11:52:45,541 INFO    HandlerThread:94195 [handler.py:handle_request_defer():184] handle defer: 0
+2024-08-12 11:52:45,542 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: defer
+2024-08-12 11:52:45,542 INFO    SenderThread:94195 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-08-12 11:52:45,542 INFO    SenderThread:94195 [sender.py:transition_state():626] send defer: 1
+2024-08-12 11:52:45,542 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: defer
+2024-08-12 11:52:45,542 INFO    HandlerThread:94195 [handler.py:handle_request_defer():184] handle defer: 1
+2024-08-12 11:52:45,542 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: defer
+2024-08-12 11:52:45,542 INFO    SenderThread:94195 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-08-12 11:52:45,542 INFO    SenderThread:94195 [sender.py:transition_state():626] send defer: 2
+2024-08-12 11:52:45,542 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: defer
+2024-08-12 11:52:45,542 INFO    HandlerThread:94195 [handler.py:handle_request_defer():184] handle defer: 2
+2024-08-12 11:52:45,543 INFO    HandlerThread:94195 [system_monitor.py:finish():203] Stopping system monitor
+2024-08-12 11:52:45,543 DEBUG   SystemMonitor:94195 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-08-12 11:52:45,543 DEBUG   SystemMonitor:94195 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-08-12 11:52:45,543 DEBUG   SystemMonitor:94195 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-08-12 11:52:45,543 INFO    HandlerThread:94195 [interfaces.py:finish():200] Joined cpu monitor
+2024-08-12 11:52:45,544 INFO    HandlerThread:94195 [interfaces.py:finish():200] Joined disk monitor
+2024-08-12 11:52:45,544 INFO    HandlerThread:94195 [interfaces.py:finish():200] Joined gpuapple monitor
+2024-08-12 11:52:45,544 INFO    HandlerThread:94195 [interfaces.py:finish():200] Joined memory monitor
+2024-08-12 11:52:45,544 INFO    HandlerThread:94195 [interfaces.py:finish():200] Joined network monitor
+2024-08-12 11:52:45,545 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: defer
+2024-08-12 11:52:45,545 INFO    SenderThread:94195 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-08-12 11:52:45,545 INFO    SenderThread:94195 [sender.py:transition_state():626] send defer: 3
+2024-08-12 11:52:45,545 DEBUG   SenderThread:94195 [sender.py:send():391] send: telemetry
+2024-08-12 11:52:45,545 DEBUG   SenderThread:94195 [sender.py:send():391] send: stats
+2024-08-12 11:52:45,545 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: defer
+2024-08-12 11:52:45,546 INFO    HandlerThread:94195 [handler.py:handle_request_defer():184] handle defer: 3
+2024-08-12 11:52:45,546 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: defer
+2024-08-12 11:52:45,546 INFO    SenderThread:94195 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-08-12 11:52:45,546 INFO    SenderThread:94195 [sender.py:transition_state():626] send defer: 4
+2024-08-12 11:52:45,546 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: defer
+2024-08-12 11:52:45,546 INFO    HandlerThread:94195 [handler.py:handle_request_defer():184] handle defer: 4
+2024-08-12 11:52:45,546 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: defer
+2024-08-12 11:52:45,546 INFO    SenderThread:94195 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-08-12 11:52:45,546 INFO    SenderThread:94195 [sender.py:transition_state():626] send defer: 5
+2024-08-12 11:52:45,546 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: defer
+2024-08-12 11:52:45,546 INFO    HandlerThread:94195 [handler.py:handle_request_defer():184] handle defer: 5
+2024-08-12 11:52:45,547 DEBUG   SenderThread:94195 [sender.py:send():391] send: summary
+2024-08-12 11:52:45,547 INFO    SenderThread:94195 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-12 11:52:45,547 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: defer
+2024-08-12 11:52:45,547 INFO    SenderThread:94195 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-08-12 11:52:45,547 INFO    SenderThread:94195 [sender.py:transition_state():626] send defer: 6
+2024-08-12 11:52:45,547 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: defer
+2024-08-12 11:52:45,547 INFO    HandlerThread:94195 [handler.py:handle_request_defer():184] handle defer: 6
+2024-08-12 11:52:45,548 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: defer
+2024-08-12 11:52:45,548 INFO    SenderThread:94195 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-08-12 11:52:45,551 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: status_report
+2024-08-12 11:52:45,613 INFO    Thread-12 :94195 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_115241-1r84d5no/files/config.yaml
+2024-08-12 11:52:45,614 INFO    Thread-12 :94195 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_115241-1r84d5no/files/wandb-summary.json
+2024-08-12 11:52:45,614 INFO    Thread-12 :94195 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_115241-1r84d5no/files/output.log
+2024-08-12 11:52:45,882 INFO    wandb-upload_0:94195 [upload_job.py:push():130] Uploaded file /var/folders/nn/fgf_xpts7y18yb4cb3hx57k80000gn/T/tmprh4bs2h9wandb/k6dznmoo-wandb-metadata.json
+2024-08-12 11:52:45,898 INFO    SenderThread:94195 [sender.py:transition_state():626] send defer: 7
+2024-08-12 11:52:45,898 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: defer
+2024-08-12 11:52:45,898 INFO    HandlerThread:94195 [handler.py:handle_request_defer():184] handle defer: 7
+2024-08-12 11:52:45,898 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: defer
+2024-08-12 11:52:45,898 INFO    SenderThread:94195 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-08-12 11:52:46,530 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-12 11:52:46,619 INFO    Thread-12 :94195 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_115241-1r84d5no/files/config.yaml
+2024-08-12 11:52:47,550 INFO    SenderThread:94195 [sender.py:transition_state():626] send defer: 8
+2024-08-12 11:52:47,551 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: poll_exit
+2024-08-12 11:52:47,551 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: defer
+2024-08-12 11:52:47,552 INFO    HandlerThread:94195 [handler.py:handle_request_defer():184] handle defer: 8
+2024-08-12 11:52:47,552 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: defer
+2024-08-12 11:52:47,552 INFO    SenderThread:94195 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-08-12 11:52:47,552 INFO    SenderThread:94195 [job_builder.py:build():440] Attempting to build job artifact
+2024-08-12 11:52:47,553 INFO    SenderThread:94195 [job_builder.py:_get_source_type():569] is repo sourced job
+2024-08-12 11:52:47,594 INFO    SenderThread:94195 [job_builder.py:build():545] adding wandb-job metadata file
+2024-08-12 11:52:47,595 INFO    SenderThread:94195 [sender.py:transition_state():626] send defer: 9
+2024-08-12 11:52:47,596 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: defer
+2024-08-12 11:52:47,596 DEBUG   SenderThread:94195 [sender.py:send():391] send: artifact
+2024-08-12 11:52:47,596 INFO    HandlerThread:94195 [handler.py:handle_request_defer():184] handle defer: 9
+2024-08-12 11:52:47,623 INFO    Thread-12 :94195 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_115241-1r84d5no/files/output.log
+2024-08-12 11:52:48,539 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-12 11:52:49,263 INFO    SenderThread:94195 [sender.py:send_artifact():1549] sent artifact job-https___github.com_ys-zong_MEDFAIR.git_trainn.py - {'id': 'QXJ0aWZhY3Q6MTE0MDk4MDMyMg==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQwODAxMzU5MQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTE0MDk4MDMyMg==', 'versionIndex': 3}}}
+2024-08-12 11:52:49,263 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: defer
+2024-08-12 11:52:49,264 INFO    SenderThread:94195 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-08-12 11:52:49,264 INFO    SenderThread:94195 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-08-12 11:52:49,633 INFO    SenderThread:94195 [dir_watcher.py:finish():388] scan: /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_115241-1r84d5no/files
+2024-08-12 11:52:49,634 INFO    SenderThread:94195 [dir_watcher.py:finish():402] scan save: /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_115241-1r84d5no/files/requirements.txt requirements.txt
+2024-08-12 11:52:49,634 INFO    SenderThread:94195 [dir_watcher.py:finish():402] scan save: /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_115241-1r84d5no/files/output.log output.log
+2024-08-12 11:52:49,635 INFO    SenderThread:94195 [dir_watcher.py:finish():402] scan save: /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_115241-1r84d5no/files/config.yaml config.yaml
+2024-08-12 11:52:49,640 INFO    SenderThread:94195 [dir_watcher.py:finish():402] scan save: /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_115241-1r84d5no/files/wandb-summary.json wandb-summary.json
+2024-08-12 11:52:49,643 INFO    SenderThread:94195 [dir_watcher.py:finish():402] scan save: /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_115241-1r84d5no/files/wandb-metadata.json wandb-metadata.json
+2024-08-12 11:52:49,643 INFO    SenderThread:94195 [sender.py:transition_state():626] send defer: 10
+2024-08-12 11:52:49,644 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: poll_exit
+2024-08-12 11:52:49,644 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: defer
+2024-08-12 11:52:49,646 INFO    HandlerThread:94195 [handler.py:handle_request_defer():184] handle defer: 10
+2024-08-12 11:52:49,647 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: defer
+2024-08-12 11:52:49,647 INFO    SenderThread:94195 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-08-12 11:52:49,647 INFO    SenderThread:94195 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-12 11:52:50,334 INFO    wandb-upload_1:94195 [upload_job.py:push():130] Uploaded file /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_115241-1r84d5no/files/requirements.txt
+2024-08-12 11:52:50,548 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-12 11:52:50,549 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: poll_exit
+2024-08-12 11:52:50,803 INFO    wandb-upload_2:94195 [upload_job.py:push():130] Uploaded file /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_115241-1r84d5no/files/config.yaml
+2024-08-12 11:52:50,845 INFO    wandb-upload_0:94195 [upload_job.py:push():130] Uploaded file /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_115241-1r84d5no/files/output.log
+2024-08-12 11:52:51,514 INFO    wandb-upload_3:94195 [upload_job.py:push():130] Uploaded file /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_115241-1r84d5no/files/wandb-summary.json
+2024-08-12 11:52:51,554 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-12 11:52:51,554 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: poll_exit
+2024-08-12 11:52:51,716 INFO    Thread-11 :94195 [sender.py:transition_state():626] send defer: 11
+2024-08-12 11:52:51,717 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: defer
+2024-08-12 11:52:51,717 INFO    HandlerThread:94195 [handler.py:handle_request_defer():184] handle defer: 11
+2024-08-12 11:52:51,717 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: defer
+2024-08-12 11:52:51,717 INFO    SenderThread:94195 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-08-12 11:52:51,717 INFO    SenderThread:94195 [file_pusher.py:join():175] waiting for file pusher
+2024-08-12 11:52:51,717 INFO    SenderThread:94195 [sender.py:transition_state():626] send defer: 12
+2024-08-12 11:52:51,717 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: defer
+2024-08-12 11:52:51,717 INFO    HandlerThread:94195 [handler.py:handle_request_defer():184] handle defer: 12
+2024-08-12 11:52:51,717 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: defer
+2024-08-12 11:52:51,717 INFO    SenderThread:94195 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-08-12 11:52:51,717 INFO    SenderThread:94195 [file_stream.py:finish():601] file stream finish called
+2024-08-12 11:52:52,026 INFO    SenderThread:94195 [file_stream.py:finish():605] file stream finish is done
+2024-08-12 11:52:52,026 INFO    SenderThread:94195 [sender.py:transition_state():626] send defer: 13
+2024-08-12 11:52:52,026 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: defer
+2024-08-12 11:52:52,026 INFO    HandlerThread:94195 [handler.py:handle_request_defer():184] handle defer: 13
+2024-08-12 11:52:52,026 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: defer
+2024-08-12 11:52:52,026 INFO    SenderThread:94195 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-08-12 11:52:52,026 INFO    SenderThread:94195 [sender.py:transition_state():626] send defer: 14
+2024-08-12 11:52:52,026 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: defer
+2024-08-12 11:52:52,026 INFO    HandlerThread:94195 [handler.py:handle_request_defer():184] handle defer: 14
+2024-08-12 11:52:52,027 DEBUG   SenderThread:94195 [sender.py:send():391] send: final
+2024-08-12 11:52:52,027 DEBUG   SenderThread:94195 [sender.py:send():391] send: footer
+2024-08-12 11:52:52,027 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: defer
+2024-08-12 11:52:52,027 INFO    SenderThread:94195 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-08-12 11:52:52,027 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-12 11:52:52,027 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: server_info
+2024-08-12 11:52:52,027 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: poll_exit
+2024-08-12 11:52:52,027 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: server_info
+2024-08-12 11:52:52,028 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-12 11:52:52,028 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: get_summary
+2024-08-12 11:52:52,029 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: sampled_history
+2024-08-12 11:52:52,029 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-12 11:52:52,435 DEBUG   SenderThread:94195 [sender.py:send_request():418] send_request: poll_exit
+2024-08-12 11:52:52,436 INFO    MainThread:94195 [wandb_run.py:_footer_history_summary_info():4035] rendering history
+2024-08-12 11:52:52,436 INFO    MainThread:94195 [wandb_run.py:_footer_history_summary_info():4067] rendering summary
+2024-08-12 11:52:52,437 INFO    MainThread:94195 [wandb_run.py:_footer_sync_info():3994] logging synced files
+2024-08-12 11:52:52,438 DEBUG   HandlerThread:94195 [handler.py:handle_request():158] handle_request: shutdown
+2024-08-12 11:52:52,439 INFO    HandlerThread:94195 [handler.py:finish():882] shutting down handler
+2024-08-12 11:52:53,034 INFO    WriterThread:94195 [datastore.py:close():296] close: /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_115241-1r84d5no/run-1r84d5no.wandb
+2024-08-12 11:52:53,440 INFO    SenderThread:94195 [sender.py:finish():1631] shutting down sender
+2024-08-12 11:52:53,441 INFO    SenderThread:94195 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-12 11:52:53,441 INFO    SenderThread:94195 [file_pusher.py:join():175] waiting for file pusher

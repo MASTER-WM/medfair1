@@ -1,0 +1,16 @@
+{
+    "T_max": 50,
+    "_lambda": 0.1,
+    "adaptive": true,
+    "alpha": 0.1,
+    "aud_steps": 1,
+    "backbone": "cusResNet18",
+    "batch_size": 1024,
+    "beta": 0.1,
+    "class_coeff": 1.0,
+    "cross_testing": false,
+    "cross_testing_model_path": "",
+    "cross_testing_model_path_single": "",
+    "cuda": true,
+    "dataset_name": "CXP",
+    "device": 

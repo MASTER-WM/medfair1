@@ -1,0 +1,29 @@
+2024-08-12 12:56:39,423 INFO    MainThread:97686 [wandb_setup.py:_flush():76] Current SDK version is 0.17.6
+2024-08-12 12:56:39,423 INFO    MainThread:97686 [wandb_setup.py:_flush():76] Configure stats pid to 97686
+2024-08-12 12:56:39,424 INFO    MainThread:97686 [wandb_setup.py:_flush():76] Loading settings from /Users/amir/.config/wandb/settings
+2024-08-12 12:56:39,424 INFO    MainThread:97686 [wandb_setup.py:_flush():76] Loading settings from /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/settings
+2024-08-12 12:56:39,424 INFO    MainThread:97686 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-08-12 12:56:39,424 INFO    MainThread:97686 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'trainn.py', 'program_abspath': '/Users/amir/PycharmProjects/Medfair/MEDFAIR/trainn.py', 'program': '/Users/amir/PycharmProjects/Medfair/MEDFAIR/trainn.py'}
+2024-08-12 12:56:39,424 INFO    MainThread:97686 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-08-12 12:56:39,424 INFO    MainThread:97686 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-08-12 12:56:39,424 INFO    MainThread:97686 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-08-12 12:56:39,424 INFO    MainThread:97686 [wandb_init.py:_log_setup():521] Logging user logs to /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_125639-bvcfh2rm/logs/debug.log
+2024-08-12 12:56:39,424 INFO    MainThread:97686 [wandb_init.py:_log_setup():522] Logging internal logs to /Users/amir/PycharmProjects/Medfair/MEDFAIR/wandb/run-20240812_125639-bvcfh2rm/logs/debug-internal.log
+2024-08-12 12:56:39,424 INFO    MainThread:97686 [wandb_init.py:init():559] calling init triggers
+2024-08-12 12:56:39,424 INFO    MainThread:97686 [wandb_init.py:init():566] wandb.init called with sweep_config: {}
+config: {'experiment': 'baseline', 'experiment_name': 'test', 'wandb_name': 'baseline', 'if_wandb': True, 'dataset_name': 'CXP', 'sensitive_name': 'Sex', 'is_3d': False, 'is_tabular': False, 'random_seed': 0, 'batch_size': 1024, 'cuda': True, 'lr': 0.0001, 'weight_decay': 0.0001, 'lr_decay_rate': 0.1, 'lr_decay_period': 10, 'total_epochs': 15, 'early_stopping': 5, 'test_mode': False, 'hyper_search': False, 'resume_path': '', 'data_setting': {'augment': True, 'other_key': 'value'}, 'hash_id': '', 'val_strategy': 'loss', 'cross_testing': False, 'source_domain': '', 'target_domain': '', 'cross_testing_model_path': '', 'cross_testing_model_path_single': '', 'backbone': 'cusResNet18', 'pretrained': True, 'output_dim': 14, 'num_classes': 14, 'sens_classes': 2, 'input_channel': 3, 'resample_which': 'group', 'aud_steps': 1, 'class_coeff': 1.0, 'fair_coeff': 1.0, 'model_var': 'laftr-eqodd', 'mu': 0.1, '_lambda': 0.1, 'alpha': 0.1, 'beta': 0.1, 'lambda_e': 0.1, 'lambda_od': 0.1, 'gamma_e': 0.1, 'gamma_od': 0.1, 'step_size': 20, 'groupdro_alpha': 0.2, 'groupdro_gamma': 0.1, 'swa_start': 7, 'swa_lr': 0.0001, 'swa_annealing_epochs': 3, 'swad_n_converge': 3, 'swad_n_tolerance': 6, 'swad_tolerance_ratio': 0.05, 'rho': 2, 'adaptive': True, 'T_max': 50, 'gsam_alpha': 2, 'num_monte_carlo': 10, 'log_freq': 50, 'hash': 'debe7f0cb4', 'device': device(type='cuda'), 'save_folder': 'your_path/fariness_data/model_records/CXP/Sex/cusResNet18/baseline'}
+2024-08-12 12:56:39,424 INFO    MainThread:97686 [wandb_init.py:init():609] starting backend
+2024-08-12 12:56:39,424 INFO    MainThread:97686 [wandb_init.py:init():613] setting up manager
+2024-08-12 12:56:39,425 INFO    MainThread:97686 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-08-12 12:56:39,427 INFO    MainThread:97686 [wandb_init.py:init():621] backend started and connected
+2024-08-12 12:56:39,434 INFO    MainThread:97686 [wandb_init.py:init():716] updated telemetry
+2024-08-12 12:56:39,455 INFO    MainThread:97686 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2024-08-12 12:56:40,743 INFO    MainThread:97686 [wandb_run.py:_on_init():2438] communicating current version
+2024-08-12 12:56:42,341 INFO    MainThread:97686 [wandb_run.py:_on_init():2447] got version response 
+2024-08-12 12:56:42,341 INFO    MainThread:97686 [wandb_init.py:init():800] starting run threads in backend
+2024-08-12 12:56:42,837 INFO    MainThread:97686 [wandb_run.py:_console_start():2416] atexit reg
+2024-08-12 12:56:42,837 INFO    MainThread:97686 [wandb_run.py:_redirect():2258] redirect: wrap_raw
+2024-08-12 12:56:42,837 INFO    MainThread:97686 [wandb_run.py:_redirect():2323] Wrapping output streams.
+2024-08-12 12:56:42,837 INFO    MainThread:97686 [wandb_run.py:_redirect():2348] Redirects installed.
+2024-08-12 12:56:42,839 INFO    MainThread:97686 [wandb_init.py:init():843] run started, returning control to user process
+2024-08-12 12:56:54,944 WARNING MsgRouterThr:97686 [router.py:message_loop():77] message_loop has been closed

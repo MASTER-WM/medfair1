@@ -1,0 +1,235 @@
+wandb_version: 1
+
+experiment:
+  desc: null
+  value: baseline
+experiment_name:
+  desc: null
+  value: test
+wandb_name:
+  desc: null
+  value: baseline
+if_wandb:
+  desc: null
+  value: true
+dataset_name:
+  desc: null
+  value: CXP
+sensitive_name:
+  desc: null
+  value: Sex
+is_3d:
+  desc: null
+  value: false
+is_tabular:
+  desc: null
+  value: false
+random_seed:
+  desc: null
+  value: 0
+batch_size:
+  desc: null
+  value: 1024
+cuda:
+  desc: null
+  value: true
+lr:
+  desc: null
+  value: 0.0001
+weight_decay:
+  desc: null
+  value: 0.0001
+lr_decay_rate:
+  desc: null
+  value: 0.1
+lr_decay_period:
+  desc: null
+  value: 10
+total_epochs:
+  desc: null
+  value: 15
+early_stopping:
+  desc: null
+  value: 5
+test_mode:
+  desc: null
+  value: false
+hyper_search:
+  desc: null
+  value: false
+resume_path:
+  desc: null
+  value: ''
+data_setting:
+  desc: null
+  value:
+    augment: true
+    other_key: value
+hash_id:
+  desc: null
+  value: ''
+val_strategy:
+  desc: null
+  value: loss
+cross_testing:
+  desc: null
+  value: false
+source_domain:
+  desc: null
+  value: ''
+target_domain:
+  desc: null
+  value: ''
+cross_testing_model_path:
+  desc: null
+  value: ''
+cross_testing_model_path_single:
+  desc: null
+  value: ''
+backbone:
+  desc: null
+  value: cusResNet18
+pretrained:
+  desc: null
+  value: true
+output_dim:
+  desc: null
+  value: 14
+num_classes:
+  desc: null
+  value: 14
+sens_classes:
+  desc: null
+  value: 2
+input_channel:
+  desc: null
+  value: 3
+resample_which:
+  desc: null
+  value: group
+aud_steps:
+  desc: null
+  value: 1
+class_coeff:
+  desc: null
+  value: 1.0
+fair_coeff:
+  desc: null
+  value: 1.0
+model_var:
+  desc: null
+  value: laftr-eqodd
+mu:
+  desc: null
+  value: 0.1
+_lambda:
+  desc: null
+  value: 0.1
+alpha:
+  desc: null
+  value: 0.1
+beta:
+  desc: null
+  value: 0.1
+lambda_e:
+  desc: null
+  value: 0.1
+lambda_od:
+  desc: null
+  value: 0.1
+gamma_e:
+  desc: null
+  value: 0.1
+gamma_od:
+  desc: null
+  value: 0.1
+step_size:
+  desc: null
+  value: 20
+groupdro_alpha:
+  desc: null
+  value: 0.2
+groupdro_gamma:
+  desc: null
+  value: 0.1
+swa_start:
+  desc: null
+  value: 7
+swa_lr:
+  desc: null
+  value: 0.0001
+swa_annealing_epochs:
+  desc: null
+  value: 3
+swad_n_converge:
+  desc: null
+  value: 3
+swad_n_tolerance:
+  desc: null
+  value: 6
+swad_tolerance_ratio:
+  desc: null
+  value: 0.05
+rho:
+  desc: null
+  value: 2
+adaptive:
+  desc: null
+  value: true
+T_max:
+  desc: null
+  value: 50
+gsam_alpha:
+  desc: null
+  value: 2
+num_monte_carlo:
+  desc: null
+  value: 10
+log_freq:
+  desc: null
+  value: 50
+hash:
+  desc: null
+  value: debe7f0cb4
+device:
+  desc: null
+  value: cuda
+save_folder:
+  desc: null
+  value: your_path/fariness_data/model_records/CXP/Sex/cusResNet18/baseline
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.6
+    cli_version: 0.17.6
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1723454799
+    t:
+      1:
+      - 1
+      - 5
+      - 41
+      - 51
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 41
+      - 51
+      - 53
+      - 55
+      3:
+      - 13
+      - 16
+      - 17
+      - 23
+      - 37
+      4: 3.9.6
+      5: 0.17.6
+      8:
+      - 4
+      - 5
+      13: darwin-arm64

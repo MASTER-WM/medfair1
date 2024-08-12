@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/trainn.py", line 160, in <module>
+    main()
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/trainn.py", line 116, in main
+    train_dataset = CustomDataset(dataframe=train_data, transform=transform)
+NameError: name 'transform' is not defined

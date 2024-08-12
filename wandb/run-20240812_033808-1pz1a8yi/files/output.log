@@ -1,0 +1,53 @@
+Train data distribution:
+binaryLabel    0   1
+Age_Category
+0-19           1   0
+20-29          4   0
+30-39         15   1
+40-49         16  12
+50-59         16   7
+60-69         11  17
+70-79          7   9
+80-89          2   2
+90-99          0   0
+100+           0   0
+Validation data distribution:
+binaryLabel   0  1
+Age_Category
+0-19          0  0
+20-29         2  1
+30-39         2  0
+40-49         6  2
+50-59         6  3
+60-69         5  8
+70-79         2  6
+80-89         0  2
+90-99         0  0
+100+          0  0
+Test data distribution:
+binaryLabel    0  1
+Age_Category
+0-19           0  0
+20-29          6  0
+30-39          5  1
+40-49          9  1
+50-59         10  3
+60-69          2  5
+70-79          1  4
+80-89          0  2
+90-99          0  0
+100+           0  0
+Traceback (most recent call last):
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/trainn.py", line 169, in <module>
+    main()
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/trainn.py", line 131, in main
+    models_list = [CFair(opt, wandb), DomainInd(opt, wandb), EnD(opt, wandb), GroupDRO(opt, wandb),
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/models/CFair/CFair.py", line 16, in __init__
+    super(CFair, self).__init__(opt, wandb)
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/models/basenet.py", line 59, in __init__
+    self.set_data(opt)
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/models/basenet.py", line 73, in set_data
+    self.train_data, self.val_data, self.test_data, self.train_loader, self.val_loader, self.test_loader, self.val_meta, self.test_meta = get_dataset(opt)
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/datasets/utils.py", line 18, in get_dataset
+    data_setting = opt['data_setting']
+KeyError: 'data_setting'

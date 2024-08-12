@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/trainn.py", line 157, in <module>
+    main()
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/trainn.py", line 111, in main
+    train_data, val_data, test_data = preprocess_data(metadata_path, image_dir)
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/trainn.py", line 96, in preprocess_data
+    save_images_as_pickle(train_data, 'train_images/')
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/trainn.py", line 89, in save_images_as_pickle
+    with Image.open(image_path) as img:
+  File "/Users/amir/Documents/Projects/Python/Medfair/lib/python3.9/site-packages/PIL/Image.py", line 3431, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/amir/PycharmProjects/Medfair/MEDFAIR/path_to_images/case140.png'

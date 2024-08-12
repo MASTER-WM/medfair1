@@ -1,0 +1,16 @@
+
+Train data distribution:
+Traceback (most recent call last):
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/trainn.py", line 167, in <module>
+    main()
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/trainn.py", line 113, in main
+    print(count_images_per_group(sub_train, 'Age_Category', 'binaryLabel'))
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/trainn.py", line 110, in count_images_per_group
+    return data.groupby([group_col, class_col]).size().unstack(fill_value=0)
+  File "/Users/amir/Documents/Projects/Python/Medfair/lib/python3.9/site-packages/pandas/core/frame.py", line 9183, in groupby
+    return DataFrameGroupBy(
+  File "/Users/amir/Documents/Projects/Python/Medfair/lib/python3.9/site-packages/pandas/core/groupby/groupby.py", line 1329, in __init__
+    grouper, exclusions, obj = get_grouper(
+  File "/Users/amir/Documents/Projects/Python/Medfair/lib/python3.9/site-packages/pandas/core/groupby/grouper.py", line 1043, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'binaryLabel'

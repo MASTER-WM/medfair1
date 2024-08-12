@@ -1,0 +1,48 @@
+{
+    "os": "macOS-14.4.1-arm64-arm-64bit",
+    "python": "3.9.6",
+    "heartbeatAt": "2024-08-12T10:02:19.646856",
+    "startedAt": "2024-08-12T10:02:16.081547",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Untitled8.ipynb",
+    "codePathLocal": "Untitled8.ipynb",
+    "root": "/Users/amir/PycharmProjects/Medfair/MEDFAIR",
+    "git": {
+        "remote": "https://github.com/ys-zong/MEDFAIR.git",
+        "commit": "2fae4241b6281c974a07ad35e4fb9f839825c84c"
+    },
+    "email": "amir1374m@gmail.com",
+    "host": "Amirs-MacBook-Pro.local",
+    "username": "amir",
+    "executable": "/Users/amir/Documents/Projects/Python/Medfair/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "cpu_freq": {
+        "current": 3228,
+        "min": 600,
+        "max": 3228
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3228,
+            "min": 600,
+            "max": 3228
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 9.539630889892578
+        }
+    },
+    "gpuapple": {
+        "type": "Apple M1 Pro",
+        "vendor": "sppci_vendor_Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

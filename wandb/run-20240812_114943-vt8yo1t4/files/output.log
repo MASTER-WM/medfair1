@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/trainn.py", line 179, in <module>
+    main()
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/trainn.py", line 144, in main
+    models_list = [CFair(opt, wandb), DomainInd(opt, wandb), EnD(opt, wandb), GroupDRO(opt, wandb),
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/models/CFair/CFair.py", line 16, in __init__
+    super(CFair, self).__init__(opt, wandb)
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/models/basenet.py", line 59, in __init__
+    self.set_data(opt)
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/models/basenet.py", line 73, in set_data
+    self.train_data, self.val_data, self.test_data, self.train_loader, self.val_loader, self.test_loader, self.val_meta, self.test_meta = get_dataset(opt)
+  File "/Users/amir/PycharmProjects/Medfair/MEDFAIR/datasets/utils.py", line 80, in get_dataset
+    image_path = data_setting['image_feature_path']
+KeyError: 'image_feature_path'
